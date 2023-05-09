@@ -15,7 +15,6 @@ for num in num_list:
 			break
 		else:
 			if dq.index(num) <= len(dq) // 2:
-				print(len(dq)//2)
 				print("index" , dq.index(num), dq)
 				dq.rotate(-1)
 				count+=1
